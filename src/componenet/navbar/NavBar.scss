@@ -1,0 +1,28 @@
+.navbar{
+    height: 100px;
+   
+    .wrapper{
+        max-width: 84%;
+        margin: auto;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    .socials{
+        display: flex;
+        gap: 20px;
+        img{
+            margin-top: 5px;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+    }
+    .name{
+        font-size: 30px;
+        color: aqua;
+        font-weight: 500;
+    }
+
+}
